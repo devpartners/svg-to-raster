@@ -5,7 +5,7 @@ Console app that converts an SVG to a raster format
 
 To use the console app, run the following command:
 
-```
+```bash
 svg-to-raster <input-svg-file> [output-file] [output-format]
 ```
 
@@ -19,18 +19,18 @@ svg-to-raster <input-svg-file> [output-file] [output-format]
 
 Convert an SVG file to PNG format (default):
 
-```
+```bash
 svg-to-raster foo.svg
 ```
 
 Convert an SVG file to JPEG format:
 
-```
+```bash
 svg-to-raster foo.svg foo.jpeg jpeg
 ```
 
 Convert an SVG file to GIF format and specify the output file path:
 
-```
+```bash
 svg-to-raster foo.svg output/foo.gif gif
 ```
