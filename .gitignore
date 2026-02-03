@@ -1,0 +1,7 @@
+# git rm -r --cached bin obj
+# git commit -m "Stop tracking bin/ and obj/"
+
+obj/
+bin/
+
+.DS_Store

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#1a1a1a"/>
+  
+  <!-- AI-inspired hexagonal pattern -->
+  <g stroke="#3498db" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M100,100 L150,150 L200,100 L150,50 Z" />
+    <path d="M300,200 L350,250 L400,200 L350,150 Z" />
+    <path d="M500,100 L550,150 L600,100 L550,50 Z" />
+    <path d="M200,300 L250,350 L300,300 L250,250 Z" />
+    <path d="M400,300 L450,350 L500,300 L450,250 Z" />
+    <path d="M600,300 L650,350 L700,300 L650,250 Z" />
+  </g>
+  
+  <!-- Connecting lines -->
+  <g stroke="#3498db" stroke-width="1" opacity="0.2">
+    <line x1="150" y1="100" x2="350" y2="200" />
+    <line x1="350" y1="200" x2="550" y2="100" />
+    <line x1="250" y1="300" x2="450" y2="300" />
+    <line x1="450" y1="300" x2="650" y2="300" />
+  </g>
+  
+  <!-- Glowing dots at intersections -->
+  <g fill="#3498db">
+    <circle cx="150" cy="100" r="4">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="200" r="4">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="550" cy="100" r="4">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Main text -->
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">
+    SemanticKernel.dev
+  </text>
+  
+  <!-- Tagline -->
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="32" fill="#3498db" text-anchor="middle">
+    AI your way
+  </text>
+</svg>
